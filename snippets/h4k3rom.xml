@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="H4K3ROM"
+           fetch="https://github.com/"
+           revision="refs/heads/lineage-16.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org"
+           revision="refs/heads/android-9.0" />
+  
+  <remote  name="copperhead"
+           fetch="https://github.com/copperheados/"
+           revision="refs/heads/oreo-m2-s5-release" />
+  
+  <remote name="aicp"
+           fetch="https://github.com/AICP/"
+           review="gerrit.aicp-rom.com"
+           revision="refs/heads/p9.0" />        
+
+  <!-- H4K3ROM repositories -->
+  <project path="build/make" name="H4K3ROM/android_build" remote="H4K3ROM" groups="pdk" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+<project path="vendor/lineage" name="H4K3ROM/android_vendor_lineage" remote="H4K3ROM" />
+<project path="frameworks/base" name="H4K3ROM/android_frameworks_base" remote="H4K3ROM" />
+<project path="packages/resources/devicesettings" name="H4K3ROM/android_packages_resources_devicesettings" remote="H4K3ROM" />
+<project path="bootable/recovery" name="H4K3ROM/android_bootable_recovery" groups="pdk" remote="H4K3ROM" />
+<project path="packages/apps/Settings" name="H4K3ROM/android_packages_apps_Settings" groups="pdk-fs" remote="H4K3ROM" />
+<project path="packages/apps/DSPManager" name="H4K3ROM/packages_apps_DSPManager" remote="H4K3ROM" />
+<project path="packages/services/OmniJaws" name="H4K3ROM/packages_services_OmniJaws" remote="H4K3ROM" />
+<project path="packages/apps/H4K3RWalls" name="H4K3ROM/H4K3RWalls" remote="H4K3ROM" />
+<project path="packages/apps/H4K3RWebb" name="H4K3ROM/H4K3RWebb" remote="H4K3ROM" />
+<project path="packages/apps/KernelAdiutor" name="H4K3ROM/KernelAdiutor" remote="H4K3ROM" />
+<project path="packages/apps/SetupWizard" name="H4K3ROM/android_packages_apps_SetupWizard" remote="H4K3ROM" />
+<project path="device/lineage/sepolicy" name="H4K3ROM/android_device_lineage_sepolicy" groups="pdk" remote="H4K3ROM" />
+<project path="packages/apps/LineageParts" name="H4K3ROM/android_packages_apps_LineageParts" remote="H4K3ROM" />
+<project path="packages/apps/AudioFX" name="H4K3ROM/android_packages_apps_AudioFX" remote="H4K3ROM" />
+<project path="packages/apps/LineageCustomizer" name="H4K3ROM/android_packages_apps_LineageCustomizer" remote="H4K3ROM" />
+<project path="packages/overlays/Lineage" name="H4K3ROM/android_packages_overlays_Lineage" remote="H4K3ROM" />
+<project path="lineage-sdk" name="H4K3ROM/android_lineage-sdk" remote="H4K3ROM" />
+
+    <!-- H4K3ROM OnePlus3T Repos -->
+<project path="device/oneplus/oneplus3" name="H4K3ROM/android_device_oneplus_oneplus3" remote="H4K3ROM" />  
+<project path="vendor/oneplus" name="H4K3ROM/proprietary_vendor_oneplus" remote="H4K3ROM" />
+<project path="kernel/oneplus/msm8996" name="H4K3ROM/android_kernel_oneplus_msm8996" remote="H4K3ROM" />
+<project path="device/oppo/common" name="H4K3ROM/android_device_oppo_common" remote="H4K3ROM" />  
+  
+  
+  <!-- Copperhead repos -->  
+<project path="packages/apps/PdfViewer" name="platform_packages_apps_PdfViewer" remote="copperhead" />
+
+  <!-- Omni repos -->
+  <project path="packages/apps/Phonograph" name="android_packages_apps_Phonograph" remote="omni" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" />
+  
+  <!-- LineageOS repos -->  
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="lineage" />
+                                                                                        
+</manifest>
