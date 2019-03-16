@@ -40,7 +40,6 @@
 <project path="packages/resources/devicesettings" name="H4K3ROM/android_packages_resources_devicesettings" remote="H4K3ROM" />
 <project path="bootable/recovery" name="H4K3ROM/android_bootable_recovery" groups="pdk" remote="H4K3ROM" />
 <project path="packages/apps/Settings" name="H4K3ROM/android_packages_apps_Settings" groups="pdk-fs" remote="H4K3ROM" />
-<project path="packages/apps/DSPManager" name="H4K3ROM/packages_apps_DSPManager" remote="H4K3ROM" />
 <project path="packages/services/OmniJaws" name="H4K3ROM/packages_services_OmniJaws" remote="H4K3ROM" />
 <project path="packages/apps/H4K3RWalls" name="H4K3ROM/H4K3RWalls" remote="H4K3ROM" />
 <project path="packages/apps/H4K3RWebb" name="H4K3ROM/H4K3RWebb" remote="H4K3ROM" />
