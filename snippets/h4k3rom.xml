@@ -57,6 +57,7 @@
 <project path="vendor/oneplus" name="H4K3ROM/proprietary_vendor_oneplus" remote="H4K3ROM" />
 <project path="kernel/oneplus/msm8996" name="H4K3ROM/android_kernel_oneplus_msm8996" remote="H4K3ROM" />
 <project path="device/oppo/common" name="H4K3ROM/android_device_oppo_common" remote="H4K3ROM" />  
+<project path="vendor/htc/flounder" name="H4K3ROM/vendor_flounder" remote="H4K3ROM" />  
   
   
   <!-- Copperhead repos -->  
