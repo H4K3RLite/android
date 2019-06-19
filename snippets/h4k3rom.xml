@@ -52,6 +52,7 @@
 <project path="packages/overlays/Lineage" name="H4K3ROM/android_packages_overlays_Lineage" remote="H4K3ROM" />
 <project path="lineage-sdk" name="H4K3ROM/android_lineage-sdk" remote="H4K3ROM" />
 <project path="external/e2fsprogs" name="H4K3ROM/android_external_e2fsprogs" groups="pdk" remote="H4K3ROM" />
+<project path="vendor/qcom/opensource/cryptfs_hw" name="H4K3ROM/android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" />
 
     <!-- H4K3ROM OnePlus3T Repos -->
 <project path="device/oneplus/oneplus3" name="H4K3ROM/android_device_oneplus_oneplus3" remote="H4K3ROM" />  
