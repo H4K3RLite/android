@@ -5,7 +5,7 @@ H4K3ROM [LineageOS Source]
 ```
 mkdir H4K3ROM && cd H4K3ROM
 
-repo init -u git://github.com/H4K3ROM/android.git -b lineage-16.0
+repo init -u git://github.com/H4K3RLite/android.git -b lineage-16.0
 
 
 /// Configure jack \\\
