@@ -3,7 +3,7 @@ H4K3ROM [LineageOS Source]
 
 
 ```
-mkdir H4K3ROM && cd H4K3ROM
+mkdir H4K3RLite && cd H4K3RLite
 
 repo init -u git://github.com/H4K3RLite/android.git -b lineage-16.0
 
