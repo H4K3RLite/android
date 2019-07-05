@@ -45,7 +45,7 @@
 <project path="packages/apps/H4K3RWebb" name="H4K3ROM/H4K3RWebb" remote="H4K3ROM" />
 <project path="packages/apps/KernelAdiutor" name="H4K3ROM/KernelAdiutor" remote="H4K3ROM" />
 <project path="packages/apps/Backgrounds" name="H4K3ROM/android_packages_apps_Backgrounds" remote="H4K3ROM" />
-<project path="packages/wallpapers/LivePicker" name="H4K3ROM/android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="H4K3ROM" />
+<project path="packages/apps/wallpaperPicker" name="H4K3ROM/android_packages_apps_WallpaperPicker" remote="H4K3ROM" />
 <project path="packages/apps/SetupWizard" name="H4K3ROM/android_packages_apps_SetupWizard" remote="H4K3ROM" />
 <project path="device/lineage/sepolicy" name="H4K3ROM/android_device_lineage_sepolicy" groups="pdk" remote="H4K3ROM" />
 <project path="packages/apps/LineageParts" name="H4K3ROM/android_packages_apps_LineageParts" remote="H4K3ROM" />
