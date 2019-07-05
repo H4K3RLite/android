@@ -38,7 +38,7 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-<!-- LITE REPOS --->
+<!-- LITE REPOS -->
 <project path="vendor/lineage" name="H4K3ROM/android_vendor_lineage" remote="H4K3RLite" />
   
 <!-- H4K3ROM repositories -->  
